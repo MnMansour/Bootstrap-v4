@@ -48,10 +48,17 @@ body{
 }
 .carousel-item {
   height: 300px;
+  font-size: 1.25em;
 }
 .carousel-item img {
     position: absolute;
     top: 0;
     left: 0;
     min-height: 300px;
+}
+
+#carouselButten{
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
 }
