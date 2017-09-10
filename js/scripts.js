@@ -15,5 +15,23 @@ $(document).ready(function(){
         }
         
     });
+
+    $("#bReserve").click(function(){
+        $("#reservemodal").modal('show');
+    });
+
+    $("#bLogin").click(function(){
+        $("#loginModal").modal('show')
+    });
+
+    $("#cReserve").click(function(){
+        $("#reservemodal").modal('hide');
+    });
+
+    $("#cLogin").click(function(){
+        $("#loginModal").modal('hide')
+    });
+
+
     
 });
